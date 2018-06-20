@@ -1,0 +1,53 @@
+.card.login {
+    padding: 50px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    -webkit-box-shadow: 2px 2px 4px 0 #C7C7C7;
+    box-shadow: 2px 2px 4px 0 #C7C7C7;
+    margin-top: 10px;
+}
+
+.form {
+    width: 450px;
+    margin: auto;
+}
+
+input[type="text"], select, textarea, input[type="password"] {
+    width: 100%;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 7px;
+    color: #444;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #d3d3d3;
+    -webkit-box-shadow: inset 1px 1px 2px 0 #E8E8E8;
+    box-shadow: inset 1px 1px 2px 0 #E8E8E8;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+input, button, textarea, select {
+    outline: none;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input {
+    line-height: normal;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}

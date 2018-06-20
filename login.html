@@ -1,0 +1,16 @@
+<div class="card form login">
+    <label for="email">E-mail de login:</label>
+    <input type="text" name="email" placeholder="exemplo@email.com" ng-model="loginObj.email" class="ng-pristine ng-untouched ng-valid">
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" placeholder="*******" ng-model="loginObj.senha" class="ng-pristine ng-untouched ng-valid">
+    <br>
+    <div class="boxcheck off" ng-class="{on: loginObj.continue}">
+        <div class="checkbox" ng-click="loginObj.continue=!loginObj.continue">
+            <div class="checked"></div>
+        </div>
+        Lembrar dados de login
+    </div>
+    <br>
+    <button class="button button-positive" ng-show="!logando" ng-click="logar()">LOGAR</button>
+    <button class="button button-positive ng-hide" ng-show="logando" disabled="disabled">LOGANDO...</button>
+</div>
